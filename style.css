@@ -1,0 +1,32 @@
+#head ,#image, #buttons {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+#oneBtn, #twoBtn, #threeBtn {
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    width: 20%;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#oneBtn:hover {
+    background-color: yellow;
+    cursor:pointer;
+}
+#twoBtn:hover{
+    background-color: palevioletred;
+    cursor:pointer;
+}
+#threeBtn:hover{
+    background-color: green;
+    cursor:pointer;
+}
+body{
+    background: radial-gradient(circle, rgba(226,226,231,0.7154471544715447) 49%, rgba(226,175,90,0.2903536414565826) 100%);
+}
